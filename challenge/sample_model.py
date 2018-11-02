@@ -185,7 +185,7 @@ class Model(object):
                    channel_means = self.channel_means, 
                    train_test_split = self.train_test_split,
                    input_image_size = self.input_image_size, 
-                   data_path = '../data/hard_large')
+                   data_path = '../data')
 
         #Setup minibatch generators
         G = Generator(data.train.X, data.train.y, minibatch_size = self.minibatch_size)

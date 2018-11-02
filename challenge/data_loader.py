@@ -14,7 +14,7 @@ def data_loader(label_indices,
 				channel_means, 
 				train_test_split = 0.7, 
 				input_image_size = (227, 227), 
-				data_path = '../data/hard_large'):
+				data_path = '../data'):
 
 	'''
 	Load, resize, subtract mean, and store data in easydicts.
@@ -26,7 +26,7 @@ def data_loader(label_indices,
 	channel_means = np.array(channel_means)
 
 	#Pull in image filenames:
-	im_paths = glob.glob(data_path + '/*/*.JPG')
+	im_paths = glob.glob(data_path + '/*/*.jpg')
 
 	#Train test split
 	num_training_examples = int(np.round(train_test_split*len(im_paths)))

@@ -13,7 +13,7 @@ from generator import Generator
 #Load up some data for evaluation:
 label_indices = {'brick': 0, 'ball': 1, 'cylinder': 2}
 channel_means = np.array([147.12697, 160.21092, 167.70029])
-data_path = '../data/hard_large'
+data_path = '../data'
 minibatch_size = 32
 num_batches_to_test = 10
 checkpoint_dir = 'tf_data/sample_model'
