@@ -46,7 +46,7 @@ tensorboard --logdir tf_data
 ## Deliverables
 
 1. Your modified version of `sample_model.py`. 
-2. Your tensorflow checkpoint files in a folder called `checkpoints` . We will use the `restore_from_checkpoint` method in `sample_model` to load your checkpoint and pass in the checkpoint_dir `checkpoints` into the `Model.predict` method. 
+2. Your tensorflow checkpoint files in a folder called `checkpoints` . We will use the `restore_from_checkpoint` method in `sample_model` to load your checkpoint and pass in the checkpoint_dir `checkpoints` into the `Model.predict` method. Please include all tensorflow checkpoint files: checkpoint, .ckpt.data-XXXXX-of-XXXXXX, .ckpt.meta, and .ckpt.index. We will use `tf.train.latest_checkpoint` to load your latest checkpoint. You may include multiple checkpoint or just your last checkpoint, and please keep file sizes less than 100MB. 
 
 
 ## Grading
