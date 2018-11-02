@@ -1,10 +1,16 @@
 # Return of the Original Problem
 
+
+![](../videos/bbc1k.gif)
+
 ## About This Challenge
 
 
 ## Data
 
+
+## Packages
+You are permitted to use numpy, opencv, tdqm, time, tensorflow, opencv, and scipy.
 
 ## Your Mission 
 
@@ -29,7 +35,6 @@ You will need to setup a cost function in the `train` method. Be sure that your 
 Since we don't have a very large dataset, your model may overfit. If this is the case, you may need to reduce overfitting to achieve a high accuracy. [Chaper 7](https://www.deeplearningbook.org/contents/regularization.html) of Goodfellow et. al. covers many techniques to reduce overfitting. You are free to modify the model class as you see fit, but be sure not to change the name of the class or break the predict method, as this will be used in evaluation. We will run a script very similar to `eval.py` on the evaluation server, so please run this script locally before submitting to make sure everything works. Note that the test data on the evaluation server is different from the date you've been given for training. **Note** if you choose to use dropout, I ran into gradient issues with `tf.layers.dropout`, and had much better luck with `tf.nn.dropout`. Tensorflow is a great tool, but is very much a work in progress, so issues like this do arise. 
 
 
-
 Finally, we've provided a simple training script `train.py` you can use to train your models from the terminal:
 
 ```
@@ -50,4 +55,15 @@ tensorboard --logdir tf_data
 
 
 ## Grading
+Your model will be evaluated on a true hold out set of ~200 images, and your grade will be determined by your accuracy on this set. 
+
+| Accuracy (%) | Points (10 max)  | 
+| ------------- | ------------- | 
+| Accuracy >= 92     | 10  | 
+| 90 < Accuracy <= 92 | 9  |  
+| 85 < Accuracy <= 90 | 8  |   
+| 80 < Accuracy <= 85 | 7  |   
+| 75 < Accuracy <= 80 | 6  |   
+| 70 < Accuracy <= 75 | 5  |  
+| Accuracy < 70, or code fails to run | 4  |  
 
