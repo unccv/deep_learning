@@ -5,16 +5,28 @@
 
 ## About This Challenge
 
+In the summer of 1966, Marvin Minsky and Seymour Paper, giants of Artifical Intelligence, launched the 1966 MIT Summer Vision Project: 
+
+![](graphics/summer_project_abstract-01.png)
+
+Minsky and Papert assigned Gerald Sussman, an MIT undergraduate studunt as project lead, and setup specific goals for the group around recognizing specific objects in images, and seperating these objects from their backgrounds. 
+
+![](graphics/summer_project_goals-01.png)
+
+Just how hard is it to acheive the goals Minsky and Papert laid out? How has the field of computer vision advance dsince that summer? Are these tasks trivial now, 50+ years later? Do we understand how the human visual system works? Just how hard *is* computer vision and how far have we come?
+
+In this challenge, you'll use a modern tool **deep neural networks**, and a labeled dataset to solve a version of the MIT Summer Vision Project.  
+
 
 ## Data
-
+You'll be using the bbc-1k dataset, which contains 1000 images of bricks, balls, and cylinders against cluttered backgrounds. These images are provided as compressed jpegs in this repo and have been scaled to consist resolution of 512x384. We've also provided a data loading method in `data_loader.py` to load jpgs into import and resize the dataset. 
 
 ## Packages
 You are permitted to use numpy, opencv, tdqm, time, tensorflow, opencv, and scipy.
 
 ## Your Mission 
 
-Your job is to train a deep learning model to classify images of bricks, balls, or cylinders against a cluttered background uning **tensorflow**. You are being provided a pre-trained AlexNet model to use a starting point, located in `alexnet.py`. To use the pretrained model, you'll need to download the weight file `bvlc_alexnet.npy` and place it in the challege directory, it's available [here](http://www.cs.toronto.edu/~guerzhoy/tf_alexnet/). 
+Your job is to train a deep learning model to classify images of bricks, balls, or cylinders against a cluttered background using **tensorflow**. You are being provided a pre-trained AlexNet model to use a starting point, located in `alexnet.py`. To use the pretrained model, you'll need to download the weight file `bvlc_alexnet.npy` and place it in the challege directory, it's available [here](http://www.cs.toronto.edu/~guerzhoy/tf_alexnet/). 
 
 I've provided a script `sample_model.py`, that contains a Model class for you to modify for this challenge. There are 3 key steps you need to complete: 
 
