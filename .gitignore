@@ -29,6 +29,9 @@ deprecated/
 # tf record training files from challenge
 challenge/tf_data
 
+#Tensorboard files
+events.out.tfevents.*
+
 # Model Weights
 *.npy
 
