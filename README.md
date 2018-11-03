@@ -1,6 +1,6 @@
 # Deep Learning
 
-
+**Deep Learning** has recently changed the landscape of computer vision (and other fields), and is largely responsible for a 3rd wave of interest and excitment about artificial intellgence. In this module we'll cover the basics of deep learning for computer vision. 
 
 
 ## Setup 
