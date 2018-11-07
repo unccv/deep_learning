@@ -67,6 +67,31 @@ tensorboard --logdir tf_data
 1. Your modified version of `sample_model.py`. 
 2. Your tensorflow checkpoint files in a folder called `checkpoints` . We will use the `restore_from_checkpoint` method in `sample_model` to load your checkpoint and pass in the checkpoint_dir `checkpoints` into the `Model.predict` method. Please include all tensorflow checkpoint files: checkpoint, .ckpt.data-XXXXX-of-XXXXXX, .ckpt.meta, and .ckpt.index. We will use `tf.train.latest_checkpoint` to load your latest checkpoint. You may include multiple checkpoints or just your last checkpoint, and please keep file sizes less than 100MB. 
 
+## Submission
+
+For this assignment you will upload your solutions to your Google Drive and then submit the link to your drive file in Autolab. Here is how:
+1. Download the submission folder from [here](https://drive.google.com/open?id=1eVZdNq2KXfhuhJE3bgfXo1mUYCML499v)
+2. Extract the downloaded handin.zip. Delete handin.zip.
+3. The extracted handin folder has the following structure:  
+   /handin  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /checkpoints   
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /sample_model.py  
+    
+4. Place all your checkpoint files in handin/checkpoints/
+5. Replace /handin/sample_model.py with **your** sample_model.py. Keep the file name sample_model.py
+6. Zip the handin folder.
+7. Upload your handin.zip to your Google Drive.
+8. In Google Drive, select your handin.zip, right click and select **Get Shareable link**
+9. Make sure the sharing permission for your handin.zip is set to "Anyone with the link can view"
+10. Your link will look like https://drive.google.com/open?id=1eVZdNq2KXfhuhJE3bgfXo1mUYCML499v
+10. Open Notepad or any text editor & paste your link.Then save the file as handin.txt
+11. Login to your Autolab account. Go to Deep Learning challenge and submit this handin.txt file.
+
+Notes:  
+  * Do not share your submission link with anyone else.   
+  * Keep the directory structure and name of the folder same as provided.  
+  * You do not need to submit any other .py file other than sample_model.py. Other py files provided with this challenge will be avaialble to your sample_model.py if needed.   
+
 
 ## Grading
 Your model will be evaluated on a true hold out set of ~200 images, and your grade will be determined by your accuracy on this set. 
@@ -74,10 +99,10 @@ Your model will be evaluated on a true hold out set of ~200 images, and your gra
 | Accuracy (%) | Points (10 max)  | 
 | ------------- | ------------- | 
 | Accuracy >= 92     | 10  | 
-| 90 < Accuracy <= 92 | 9  |  
-| 85 < Accuracy <= 90 | 8  |   
-| 80 < Accuracy <= 85 | 7  |   
-| 75 < Accuracy <= 80 | 6  |   
-| 70 < Accuracy <= 75 | 5  |  
+| 90 <= Accuracy < 92 | 9  |  
+| 85 <= Accuracy < 90 | 8  |   
+| 80 <= Accuracy < 85 | 7  |   
+| 75 <= Accuracy < 80 | 6  |   
+| 70 <= Accuracy < 75 | 5  |  
 | Accuracy < 70, or code fails to run | 4  |  
 
