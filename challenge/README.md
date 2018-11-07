@@ -90,7 +90,8 @@ For this assignment you will upload your solutions to your Google Drive and then
 Notes:  
   * Do not share your submission link with anyone else.   
   * Keep the directory structure and name of the folder same as provided.  
-  * You do not need to submit any other .py file other than sample_model.py. Other py files provided with this challenge will be avaialble to your sample_model.py if needed.   
+  * You do not need to submit any other .py file other than sample_model.py. Other py files provided with this challenge will be avaialble to your sample_model.py if needed.  
+  * **Please upload your final submission to canvas i.e your handin.zip. It is essential for this challenge to make a submission on Canvas. Missing submissions on Canvas will incur a penalty of 2 points for this challenge.**
 
 
 ## Grading
