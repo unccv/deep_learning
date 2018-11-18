@@ -69,7 +69,7 @@ tensorboard --logdir tf_data
 
 ## Submission
 
-For this assignment you will upload your solutions to your Google Drive and then submit the link to your drive file in Autolab. Here is how:
+For this assignment you will upload your solutions to your Google Drive/Dropbox and then submit the link to your drive or dropbox file in Autolab. Here is how:
 1. Download the submission folder from [here](https://drive.google.com/open?id=1eVZdNq2KXfhuhJE3bgfXo1mUYCML499v)
 2. Extract the downloaded handin.zip. Delete handin.zip.
 3. The extracted handin folder has the following structure:  
@@ -80,10 +80,16 @@ For this assignment you will upload your solutions to your Google Drive and then
 4. Place all your checkpoint files in handin/checkpoints/
 5. Replace /handin/sample_model.py with **your** sample_model.py. Keep the file name sample_model.py
 6. Zip the handin folder.
-7. Upload your handin.zip to your Google Drive.
-8. In Google Drive, select your handin.zip, right click and select **Get Shareable link**
-9. Make sure the sharing permission for your handin.zip is set to "Anyone with the link can view"
-10. Your link will look like https://drive.google.com/open?id=1eVZdNq2KXfhuhJE3bgfXo1mUYCML499v
+7. Upload your handin.zip to your Google Drive or your Dropbox account.
+8. If using Google Drive, then select your handin.zip, right click and select **Get Shareable link**.  
+   Make sure the sharing permission for your handin.zip is set to "Anyone with the link can view".  
+   Your link will should like https://drive.google.com/open?id=1eVZdNq2KXfhuhJE3bgfXo1mUYCML499v.   
+   **FILE SIZE LIMIT FOR GOOGLE DRIVE SUBMISSON IS 100 MB**. 
+9. If using Dropbox, then select your handin.zip and click on Share button.  
+   Make sure the sharing permission is "Anyone with the link can view this file".  
+   Click on "copy link".  
+   Your link should look like https://www.dropbox.com/s/u23i6mgjkqcr3lh/handin.zip?dl=0.  
+   **FILE SIZE LIMIT FOR DROPBOX SUBMISSON IS 300 MB**
 10. Open Notepad or any text editor & paste your link.Then save the file as handin.txt
 11. Login to your Autolab account. Go to Deep Learning challenge and submit this handin.txt file.
 
