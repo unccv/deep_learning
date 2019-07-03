@@ -1,5 +1,7 @@
 # Deep Learning
 
+**Note** This repo is deprecated and has been replaced with [Deep Learning for Computer Vision](https://github.com/unccv/deep_learning_for_computer_vision). Alot changes in Deep Learning in a year!
+
 **Deep Learning** has recently changed the landscape of computer vision (and other fields), and is largely responsible for a 3rd wave of interest and excitment about artificial intellgence. In this module we'll cover the basics of deep learning for computer vision. 
 
 
